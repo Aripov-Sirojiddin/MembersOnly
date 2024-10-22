@@ -1,0 +1,12 @@
+<% content_for :title, "Editing club house" %>
+
+<h1>Editing club house</h1>
+
+<%= render "form", club_house: @club_house %>
+
+<br>
+
+<div>
+  <%= link_to "Show this club house", @club_house %> |
+  <%= link_to "Back to club houses", club_houses_path %>
+</div>
